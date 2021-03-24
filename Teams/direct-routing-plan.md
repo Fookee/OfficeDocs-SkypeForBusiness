@@ -223,7 +223,7 @@ The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pst
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-You need to open ports for these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
+You need to open ports for these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these subnets. 
 
 > [!IMPORTANT]
 >  As part of Teams Direct Routing expansion and service improvement we have deployed new instances of Direct Routing infrastructure in Australia. This is reflected in two additional IP addresses (52.114.16.74 and 52.114.20.29) to which following FQDNs will be resolved for Australian customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.16.74 and 52.114.20.29) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signalling.
